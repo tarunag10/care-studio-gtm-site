@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://care-studio.vercel.app"),
+  metadataBase: new URL("https://care-studio-neon.vercel.app"),
   title: {
     default: "Care Studio",
     template: "%s | Care Studio"
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Care Studio",
     description: "Local Mac cleanup review.",
-    url: "https://care-studio.vercel.app",
+    url: "https://care-studio-neon.vercel.app",
     siteName: "Care Studio",
     images: [
       {

@@ -8,7 +8,7 @@ Production-ready GTM marketing website for **Care Studio**, the macOS Utilities 
 - Subtitle: Local Mac cleanup review
 - Category: Utilities
 - Existing source privacy policy: https://tarunag10.github.io/MacCareStudio-Privacy-Policy/
-- Suggested Vercel URL: https://care-studio.vercel.app
+- Production Vercel URL: https://care-studio-neon.vercel.app
 - Current App Store link used in the site: https://apps.apple.com/app/id6770096564?mt=12
 
 If Apple's final public App Store URL includes a regional slug, update the `appStoreUrl` constant in `app/page.tsx`.
@@ -41,10 +41,10 @@ npm run build
 9. Confirm `/privacy` links back to `https://tarunag10.github.io/MacCareStudio-Privacy-Policy/`.
 10. Replace the Mac App Store privacy policy URL with the deployed `/privacy` URL.
 
-Suggested privacy URL after deployment:
+Production privacy URL after deployment:
 
 ```text
-https://care-studio.vercel.app/privacy
+https://care-studio-neon.vercel.app/privacy
 ```
 
 ## Final Checklist
